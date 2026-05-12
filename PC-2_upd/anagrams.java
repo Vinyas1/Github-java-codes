@@ -23,6 +23,7 @@ for(int i=0;i<=a-b;i++) {
 	char [] cc = sub.toCharArray();
 	Arrays.sort(cc);
 	String subsortstring = new String(cc);
+	//sorting
 	if(sorted_ss.equalsIgnoreCase(subsortstring)){
 		count++;
 	}
