@@ -24,6 +24,7 @@ for(int i=0;i<=a-b;i++) {
 	Arrays.sort(cc);
 	String subsortstring = new String(cc);
 	//sorting
+	//.equalsigorecase optional
 	if(sorted_ss.equalsIgnoreCase(subsortstring)){
 		count++;
 	}
