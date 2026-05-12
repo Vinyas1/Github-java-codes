@@ -50,7 +50,7 @@ package javex;
 		  System.out.print(current.data + "->");
 		  current = current.next;
 	  }
-	  System.out.print("null");
+	  System.out.print("null!");
 	  
 	  }
 	  
