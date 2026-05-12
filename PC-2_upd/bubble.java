@@ -25,7 +25,7 @@ public static void main (String[] args ) {
 			}
 		}
 	}
-	System.out.println("the sorted srings are");
+	System.out.println("The elements after sorting are");
 	for (int i =0;i<n;i++)
 	{
 		System.out.println(fruits[i]);
