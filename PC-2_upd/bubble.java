@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class bubble {
 public static void main (String[] args ) {
 	Scanner sc=new Scanner (System.in);
-	System.out.println("enetr the number of strings");
+	System.out.println("enter the number of strings");
 	int n;
 	n=sc.nextInt();
 	String[] fruits =new String[n];
