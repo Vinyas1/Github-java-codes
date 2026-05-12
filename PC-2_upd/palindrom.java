@@ -3,7 +3,7 @@ import java.util.*;
 public class palindrom {
 
 	static  boolean palindrome(String s) {
- 		int i  = 0;
+ 		int i  = 0;                                               //function to check palindrome
 		int j= s.length()-1;
 		while(i<=j) {
 			if(s.charAt(i) != s.charAt(j)) {
@@ -28,7 +28,7 @@ public class palindrom {
 		    String str1 = str.substring(i,j);
 		    palindrome(str1);
 		    
-		    if(palindrome(str1)) {
+		    if(palindrome(str1))                     
 		   System.out.println(str1);
 		    }
 
